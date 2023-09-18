@@ -1,0 +1,1 @@
+document.querySelector("#avatarContainer").style.display = "none";

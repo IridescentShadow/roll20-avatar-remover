@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Roll20 Avatar Remover",
+  "version": "1.0",
+
+  "description": "Removes the avatar container from roll20.net so you can see the map better",
+
+  "icons": {
+    "48": "icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://app.roll20.net/*"],
+      "js": ["roll20-avatar-remover.js"]
+    }
+  ]
+}
