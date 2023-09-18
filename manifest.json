@@ -6,7 +6,8 @@
   "description": "Removes the avatar container from roll20.net so you can see the map better",
 
   "icons": {
-    "48": "icon.png"
+    "48": "icons/icon-48.png",
+	"96": "icons/icon-96.png"
   },
 
   "content_scripts": [
